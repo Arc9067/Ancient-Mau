@@ -1,0 +1,31 @@
+@import url("https://fonts.cdnfonts.com/css/wix-madefor-text");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .grade {
+    background: linear-gradient(140deg, #d19846 0%, #cfb56f 100%);
+  }
+  img {
+    @apply mx-auto;
+  }
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url(./assets/bg.png) top center no-repeat;
+    /* background-size: cover; */
+  }
+  .Mics {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url(./assets/dog4.png) top center no-repeat;
+    /* background-size: cover; */
+    background-size: 300px;
+  }
+  .about {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url(./assets/dog3.png) top center no-repeat;
+    /* background-size: cover; */
+    background-size: 300px;
+  }
+}

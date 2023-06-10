@@ -6,44 +6,25 @@ import About from "./Components/About";
 import Map from "./Components/Map";
 import Footer from "./Components/Footer";
 import Loading from "./Components/Loading";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
     const event = window.addEventListener("load", () => setLoading(false));
-
-    // gsap.defaults({ duration: 1 });
-
-    // const HeroTimeline = gsap.timeline().from(".hero-header", {
-    //   opacity: 0,
-    // });
 
     return () => window.removeEventListener("load", event);
   }, []);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen relative w-full bg-black text-secondary font-primary">
-        <Loading />
-      </div>
-    );
-  }
-
-  if (!loading) {
-    return (
-      <div className="min-h-screen relative w-full bg-black text-secondary font-primary">
-        <Hero />
-        <Mics />
-        <About />
-        <Map />
-        <Footer />
-      </div>
-    );
-  }
+  return (
+    <div className="min-h-screen relative w-full bg-black text-secondary font-primary">
+      <Hero />
+      <Mics />
+      <About />
+      <Map />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

@@ -6,10 +6,13 @@ import { BiBarChartAlt } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <section className="py-[150px] flex justify-center items-center min-h-screen w-full hero">
+    <section
+      className="py-[150px] flex justify-center items-center min-h-screen w-full hero"
+      id="hero"
+    >
       <div className="container grid lg:grid-cols-2 justify-between items-center gap-24">
         <article className="flex flex-col gap-7">
-          <h1 className="text-6xl text-white font-bold">
+          <h1 className="text-6xl text-white font-bold hero-header">
             Welcome to ancient mau
           </h1>
           <p className="text-white text-xl">

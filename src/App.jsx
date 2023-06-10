@@ -14,9 +14,7 @@ const App = () => {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    const event = window.addEventListener("load", () => {
-      setTimeout(() => setLoading(false), 1000);
-    });
+    const event = window.addEventListener("load", () => setLoading(false));
 
     // gsap.defaults({ duration: 1 });
 

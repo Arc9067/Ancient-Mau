@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import Mics from "./Components/Mics";
 import About from "./Components/About";
 import Map from "./Components/Map";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Mics />
       <About />
       <Map />
+      <Footer />
     </div>
   );
 };

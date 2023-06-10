@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Primary;
+  src: url(./assets/Pegypta.ttf);
+}
+
 @layer {
   .grade {
     background: linear-gradient(140deg, #d19846 0%, #cfb56f 100%);

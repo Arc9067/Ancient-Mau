@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Mics from "./Components/Mics";
 import About from "./Components/About";
+import Map from "./Components/Map";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Mics />
       <About />
+      <Map />
     </div>
   );
 };

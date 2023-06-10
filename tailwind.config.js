@@ -18,7 +18,7 @@ export default {
         secondary: "#D0A051",
       },
       fontFamily: {
-        primary: ["Wix Madefor Display", "sans-serif"],
+        primary: ["Primary", "sans-serif"],
       },
     },
   },

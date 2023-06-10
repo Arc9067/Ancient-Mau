@@ -8,7 +8,7 @@ import Map from "./Components/Map";
 const App = () => {
   return (
     <div className="min-h-screen relative w-full bg-black text-secondary font-primary">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Mics />
       <About />

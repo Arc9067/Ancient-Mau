@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/img1.jpg";
+import Logo from "../assets/logo1.png";
 import { FaTelegramPlane } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BiBarChartAlt } from "react-icons/bi";

@@ -37,7 +37,7 @@ const Hero = () => {
               <FaTelegramPlane />
             </a>
             <a
-              href="Twitter.com/AncientMauERC"
+              href="https://twitter.com/AncientMauERC"
               className="text-4xl hover:text-white"
             >
               <AiFillTwitterCircle />

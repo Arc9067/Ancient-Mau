@@ -9,7 +9,6 @@ const About = () => {
           about
         </h1>
         <div className="flex flex-col gap-5 text-xl md:max-w-[600px] text-white">
-         
           <img src={Dog} alt="" className="md:w-[15rem]" />
 
           <p className="">

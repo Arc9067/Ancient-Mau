@@ -9,13 +9,7 @@ const About = () => {
           about
         </h1>
         <div className="flex flex-col gap-5 text-xl md:max-w-[600px] text-white">
-          <p className="">
-            raptor Mau, the sacred Egyptian cat. This mysterious feline was
-            known for her stunning black coat and her piercing blue eyes that
-            glowed fiercely in the night. raptor Mau was not an ordinary cat,
-            she was believed to be a sacred goddess and was worshipped by the
-            Egyptians.
-          </p>
+         
           <img src={Dog} alt="" className="md:w-[15rem]" />
 
           <p className="">

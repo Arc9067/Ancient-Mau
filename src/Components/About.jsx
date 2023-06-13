@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="flex flex-col gap-5 text-xl md:max-w-[600px] text-white">
           <p className="">
-            TThe Pharaoh of Egypt decided to honor Mau by making her the
+            The Pharaoh of Egypt decided to honor Mau by making her the
             official cat of the royal palace. As time passed, Mau became more
             and more beloved by the people of Egypt. Her beauty and grace were
             unmatched, and she was often the subject of paintings and scriptures

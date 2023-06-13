@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="py-[20px] w-full bg-secondary text-black">
       <div className="container text-center">
-        <p>Copyright © 2023 ancient mau</p>
+        <p>Copyright © 2023 raptor mau</p>
       </div>
     </footer>
   );

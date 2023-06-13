@@ -10,9 +10,9 @@ const About = () => {
         </h1>
         <div className="flex flex-col gap-5 text-xl md:max-w-[600px] text-white">
           <p className="">
-            Ancient Mau, the sacred Egyptian cat. This mysterious feline was
+            raptor Mau, the sacred Egyptian cat. This mysterious feline was
             known for her stunning black coat and her piercing blue eyes that
-            glowed fiercely in the night. Ancient Mau was not an ordinary cat,
+            glowed fiercely in the night. raptor Mau was not an ordinary cat,
             she was believed to be a sacred goddess and was worshipped by the
             Egyptians.
           </p>
@@ -30,13 +30,12 @@ const About = () => {
           </p>
           <p className="">
             Instead of being admired not only by the Pharaohs and people of
-            Egypt, she also became the first blockchain goddess of Ancient
-            Egypt.
+            Egypt, she also became the first blockchain goddess of raptor Egypt.
           </p>
           <p className="">
             Her one and only mission from this point forward was to invest her
             time and energy towards the moon. Which symbolized her Islamic faith
-            in Ancient Mau the blockchain goddess.
+            in raptor Mau the blockchain goddess.
           </p>
         </div>
       </div>

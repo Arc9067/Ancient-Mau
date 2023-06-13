@@ -13,12 +13,12 @@ const Hero = () => {
       <div className="container grid lg:grid-cols-2 justify-between items-center gap-24">
         <article className="flex flex-col gap-7">
           <h1 className="text-6xl text-white font-bold hero-header">
-            Welcome to ancient mau
+            Welcome to raptor mau
           </h1>
           <p className="text-white text-xl">
-            Ancient Mau, the sacred Egyptian cat. This mysterious feline was
+            raptor Mau, the sacred Egyptian cat. This mysterious feline was
             known for her stunning black coat and her piercing blue eyes that
-            glowed fiercely in the night. Ancient Mau was not an ordinary cat,
+            glowed fiercely in the night. raptor Mau was not an ordinary cat,
             she was believed to be a sacred goddess and was worshipped by the
             Egyptians.
           </p>
@@ -31,13 +31,13 @@ const Hero = () => {
 
           <div className="flex gap-3 items-center">
             <a
-              href="https://t.me/AncientMauERC"
+              href="https://t.me/raptorMauERC"
               className="text-4xl hover:text-white"
             >
               <FaTelegramPlane />
             </a>
             <a
-              href="https://twitter.com/AncientMauERC"
+              href="https://twitter.com/raptorMauERC"
               className="text-4xl hover:text-white"
             >
               <AiFillTwitterCircle />

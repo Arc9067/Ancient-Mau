@@ -31,13 +31,13 @@ const Hero = () => {
 
           <div className="flex gap-3 items-center">
             <a
-              href="https://t.me/raptorMauERC"
+              href="https://t.me/RaptorMauERC"
               className="text-4xl hover:text-white"
             >
               <FaTelegramPlane />
             </a>
             <a
-              href="https://twitter.com/raptorMauERC"
+              href="https://twitter.com/RaptorMauERC"
               className="text-4xl hover:text-white"
             >
               <AiFillTwitterCircle />

@@ -11,19 +11,19 @@ const About = () => {
 
         <div className="flex flex-col gap-5 text-xl md:max-w-[600px] text-white">
           <p className="">
-            The Pharaoh of Egypt decided to honor Mau by making her the
-            official cat of the royal palace. As time passed, Mau became more
+            The Pharaoh of Egypt decided to honor Cat by making her the
+            official cat of the royal palace. As time passed, Cat became more
             and more beloved by the people of Egypt. Her beauty and grace were
             unmatched, and she was often the subject of paintings and scriptures
-            around the country. But Mau was not content to simply be admired,
+            around the country. But Cat was not content to simply be admired,
             she had a greater purpose in mind.
           </p>
           <img src={Dog} alt="" className="md:w-[15rem]" />
 
           <p className="">
-            As time passed, Mau became more and more beloved by the people of
+            As time passed, Cat became more and more beloved by the people of
             Egypt. Her beauty and grace were unmatched, and she was often the
-            subject of paintings and scriptures around the country. But Mau was
+            subject of paintings and scriptures around the country. But Cat was
             not content to simply be admired, she had a greater purpose in mind.
           </p>
           <p className="">
@@ -33,7 +33,7 @@ const About = () => {
           <p className="">
             Her one and only mission from this point forward was to invest her
             time and energy towards the moon. Which symbolized her Islamic faith
-            in raptor Mau the blockchain goddess.
+            in raptor Cat the blockchain goddess.
           </p>
         </div>
       </div>

@@ -13,10 +13,10 @@ const Hero = () => {
       <div className="container grid lg:grid-cols-2 justify-between items-center gap-24">
         <article className="flex flex-col gap-7">
           <h1 className="text-6xl text-white font-bold hero-header">
-            Welcome to raptor mau
+            Welcome to raptor cat
           </h1>
           <p className="text-white text-xl">
-            raptor Mau, the sacred Egyptian cat. This mysterious feline was
+            raptor cat, the sacred Egyptian cat. This mysterious feline was
             known for her stunning black coat and her piercing blue eyes that
             glowed fiercely in the night. raptor Mau was not an ordinary cat,
             she was believed to be a sacred goddess and was worshipped by the
@@ -30,16 +30,10 @@ const Hero = () => {
           </a>
 
           <div className="flex gap-3 items-center">
-            <a
-              href="https://t.me/RaptorMauERC"
-              className="text-4xl hover:text-white"
-            >
+            <a href="" className="text-4xl hover:text-white">
               <FaTelegramPlane />
             </a>
-            <a
-              href="https://twitter.com/RaptorMauERC"
-              className="text-4xl hover:text-white"
-            >
+            <a href="" className="text-4xl hover:text-white">
               <AiFillTwitterCircle />
             </a>
             <a href="" className="text-4xl hover:text-white">

@@ -20,12 +20,12 @@ const About = () => {
           </p>
           <img src={Dog} alt="" className="md:w-[15rem]" />
 
-          <p className="">
+          {/* <p className="">
             As time passed, Cat became more and more beloved by the people of
             Egypt. Her beauty and grace were unmatched, and she was often the
             subject of paintings and scriptures around the country. But Cat was
             not content to simply be admired, she had a greater purpose in mind.
-          </p>
+          </p> */}
           <p className="">
             Instead of being admired not only by the Pharaohs and people of
             Egypt, she also became the first blockchain goddess of raptor Egypt.
